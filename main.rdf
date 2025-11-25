@@ -26,6 +26,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goWellWithAroma">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goWellWithFlavour"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flavour"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Aroma"/>
     </owl:ObjectProperty>
     
 
@@ -44,6 +46,17 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goWellWithFlavour">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Aroma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flavour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goodToDrinkDuring -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goodToDrinkDuring">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TimeOfDay"/>
     </owl:ObjectProperty>
     
 
@@ -62,6 +75,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasBakery">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ComboInfo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
     </owl:ObjectProperty>
     
 
@@ -124,6 +139,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasTea">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ComboInfo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
     </owl:ObjectProperty>
     
 
