@@ -1113,6 +1113,87 @@
         />
     </owl:NamedIndividual>
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ElderBerry -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ElderBerry"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Apple -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Apple"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Mango -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Mango"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lychee -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lychee"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry` -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry`"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#PassionFruit` -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#PassionFruit`"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lemon` -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lemon`"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lime` -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lime`"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
+        />
+    </owl:NamedIndividual>
+
+
 
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult -->
 
