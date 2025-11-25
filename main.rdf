@@ -738,7 +738,7 @@
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTeaLeaf"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
     </owl:NamedIndividual>
 
 
