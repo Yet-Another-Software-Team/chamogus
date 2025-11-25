@@ -1153,10 +1153,10 @@
         />
     </owl:NamedIndividual>
 
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry` -->
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry -->
 
     <owl:NamedIndividual
-        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry`"
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry"
     >
         <rdf:type
             rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"
