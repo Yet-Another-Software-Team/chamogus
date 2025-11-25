@@ -267,6 +267,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Characteristic -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Characteristic"/>
@@ -307,6 +315,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#FruitTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#FruitTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
@@ -321,9 +345,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HerbalTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HerbalTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ingredient -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ingredient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#OolongTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#OolongTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Pu-erhTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Pu-erhTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+    </owl:Class>
     
 
 
@@ -361,6 +409,30 @@
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YellowTea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YellowTea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
     </owl:Class>
     
 
@@ -553,9 +625,28 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#OolongTea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Pu-erhTea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YellowTea"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#FruitTea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HerbalTea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
