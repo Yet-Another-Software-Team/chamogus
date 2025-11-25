@@ -973,6 +973,145 @@
         />
     </owl:NamedIndividual>
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#PepperMint -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#PepperMint"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SpearMint -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SpearMint"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Chrysanthemum -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Chrysanthemum"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChamomileFlower -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChamomileFlowers"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ginger -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ginger"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusFlower -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusFlower"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rooibos -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rooibos"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LavenderFlower -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LavenderFlower"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lemongrass -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lemongrass"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Thyme -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Thyme"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cinnamon -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cinnamon"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ginseng -->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ginseng"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#JasmineFlower-->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#JasmineFlower"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Barley-->
+
+    <owl:NamedIndividual
+        rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Barley"
+    >
+        <rdf:type
+            rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"
+        />
+    </owl:NamedIndividual>
 
 
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult -->
