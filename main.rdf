@@ -479,19 +479,33 @@
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasTeaIngredient"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasTeaIngredient"/>
-                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
-                    </owl:Restriction>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasTeaIngredient"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasTeaIngredient"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
     </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
 
 
 
@@ -538,10 +552,37 @@
 
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Assam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Assam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bancha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bancha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Barley -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Barley">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BingCha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BingCha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Pu-erhTeaLeaf"/>
     </owl:NamedIndividual>
 
 
@@ -582,6 +623,33 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cinnamon">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Darjeeling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Darjeeling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#DuckShitOolong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#DuckShitOolong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#OolongTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EarlGrey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EarlGrey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
     </owl:NamedIndividual>
 
 
@@ -650,6 +718,15 @@
 
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Gongmei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Gongmei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Grassy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Grassy">
@@ -666,6 +743,15 @@
 
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GunpowderTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GunpowderTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusFlower -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusFlower">
@@ -674,10 +760,37 @@
 
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Hojicha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Hojicha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HuoshanHuangya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HuoshanHuangya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YellowTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#JasmineFlower -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#JasmineFlower">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#JunshanYinzhen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#JunshanYinzhen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YellowTeaLeaf"/>
     </owl:NamedIndividual>
 
 
@@ -714,6 +827,15 @@
 
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Longjing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Longjing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lychee -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lychee">
@@ -738,10 +860,108 @@
 
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MatchaGreenTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MatchaGreenTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#DongDingTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#DongDingTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#OolongTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MengDingHuangya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MengDingHuangya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YellowTeaLeaf"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ThaiIcedLimeTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ThaiIcedLimeTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lime"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AppleTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AppleTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Apple"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ElderBerry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ElderBerryTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ElderBerry"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#StrawberryTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#StrawberryTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#PassionFruitTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#PassionFruitTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#PassionFruit"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MangoTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MangoTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Mango"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LemonTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LemonTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lemon"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LycheeTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LycheeTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTeaLeaf"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lychee"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MiddleAgedAdult -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MiddleAgedAdult">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MilkOolong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MilkOolong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#OolongTeaLeaf"/>
     </owl:NamedIndividual>
 
 
@@ -827,6 +1047,24 @@
 
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Shoumei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Shoumei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SilverNeedlesTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SilverNeedlesTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SpearMint -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SpearMint">
@@ -871,6 +1109,24 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Thyme">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TuoCha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TuoCha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Pu-erhTeaLeaf"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhitePeony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhitePeony">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+        <hasTeaIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTeaLeaf"/>
     </owl:NamedIndividual>
 
 
@@ -1062,6 +1318,51 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#tAroma">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>BlackTea</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasTeaIngredient"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
@@ -1381,51 +1682,6 @@
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goWellWithBakery"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
                         <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#b"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>BlackTea</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasTeaIngredient"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
