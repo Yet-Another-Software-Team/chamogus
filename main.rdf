@@ -590,7 +590,7 @@
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTeaLeaf"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
     </owl:NamedIndividual>
 
 
@@ -1151,6 +1151,96 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LemonTart-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LemonTart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CinnamonRoll-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CinnamonRoll">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Croissant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Croissant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Macarons  -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Macaron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cupcakes   -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cupcake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Muffins    -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Muffin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruitcakes    -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#FruitCake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Chocolatecakes    -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChocolateCake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cookies    -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cookie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Multigrain    -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Multigrain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SoftBread    -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SoftBread">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Brownie    -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Brownie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ApplePie    -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ApplePie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
     </owl:NamedIndividual>
 
 
