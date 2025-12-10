@@ -277,10 +277,14 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Malty"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Milky"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sour"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Spicy"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
                 </owl:oneOf>
@@ -671,6 +675,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Croissant -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Croissant">
@@ -693,6 +703,12 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Decadent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Decadent"/>
     
 
 
@@ -1024,6 +1040,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Malty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Malty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flavour"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Mango -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Mango">
@@ -1185,6 +1209,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich"/>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rooibos -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rooibos">
@@ -1232,6 +1262,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SoftBread">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flavour"/>
     </owl:NamedIndividual>
     
 
