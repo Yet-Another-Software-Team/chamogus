@@ -582,6 +582,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BingCha">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TrueTea"/>
         <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Pu-erhTeaLeaf"/>
         <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</hasCaffeine>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.0</hasPrice>
