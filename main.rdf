@@ -261,6 +261,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ingredient"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea">
@@ -527,6 +535,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Apple -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Apple">
@@ -542,6 +558,10 @@
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Apple"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Butter"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cinnamon"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutmeg"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -567,6 +587,14 @@
         <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.0</hasCaffeine>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</hasPrice>
         <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingPowder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingPowder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
@@ -621,7 +649,19 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChocolateChips"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CocoaPowder"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</hasPrice>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Butter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Butter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
@@ -657,7 +697,20 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingPowder"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Butter"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CocoaPowder"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#VanillaExtract"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.0</hasPrice>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChocolateChips -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChocolateChips">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
@@ -693,7 +746,10 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Butter"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cinnamon"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Yeast"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -708,12 +764,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CocoaPowder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CocoaPowder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cookie -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cookie">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChocolateChips"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -733,6 +801,10 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Butter"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Yeast"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -744,6 +816,11 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingPowder"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Butter"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#VanillaExtract"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -814,6 +891,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ElderBerry -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ElderBerry">
@@ -856,12 +941,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#FruitCake -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#FruitCake">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingPowder"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Butter"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lemon"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</hasPrice>
@@ -994,6 +1091,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Honey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Honey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HuoshanHuangya -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HuoshanHuangya">
@@ -1072,7 +1177,9 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lemon"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -1151,6 +1258,9 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Macaron">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -1282,6 +1392,9 @@
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Barley"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -1293,7 +1406,17 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Barley"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Honey"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Wheat"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55.0</hasPrice>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutmeg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutmeg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
     </owl:NamedIndividual>
     
 
@@ -1417,6 +1540,10 @@
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Barley"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flour"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Yeast"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55.0</hasPrice>
     </owl:NamedIndividual>
     
@@ -1460,6 +1587,14 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTeaLeaf"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Strawberry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
@@ -1521,6 +1656,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#VanillaExtract -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#VanillaExtract">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Wheat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Wheat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhitePeony -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhitePeony">
@@ -1540,6 +1691,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTeaLeaf">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Yeast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Yeast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
