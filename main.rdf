@@ -898,7 +898,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
         <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
-        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusFlower"/>
@@ -972,7 +971,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LavenderTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
         <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
-        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LavenderFlower"/>
         <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115.0</hasPrice>
