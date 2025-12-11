@@ -637,7 +637,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChamomileTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Grassy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChamomileFlowers"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -670,7 +676,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChrysanthemumTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Chrysanthemum"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -695,7 +706,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CinnamonTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Spicy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Cinnamon"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -874,9 +891,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GingerTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
         <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Spicy"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ginger"/>
         <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.0</hasPrice>
         <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
@@ -894,7 +913,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GinsengTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Spicy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ginseng"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -959,7 +984,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusFlower"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -1007,7 +1039,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#JasmineTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTeaLeaf"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#JasmineFlower"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -1038,7 +1076,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LavenderTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LavenderFlower"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -1087,7 +1130,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#LemongrassTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Grassy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Lemongrass"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -1250,7 +1300,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MintTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#PepperMint"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -1365,7 +1420,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#RooibosTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rooibos"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
@@ -1508,7 +1569,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ThymeTea">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Grassy"/>
+        <hasAroma rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty"/>
+        <hasFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Thyme"/>
+        <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasCaffeine>
+        <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</hasPrice>
+        <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
     </owl:NamedIndividual>
     
 
