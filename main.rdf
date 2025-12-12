@@ -178,7 +178,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasCaffeineThreshold">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TimeOfDay"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CaffeineThresholdInfo"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
     
@@ -257,6 +257,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Bakery">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Product"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
     </owl:Class>
     
 
@@ -282,6 +283,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CaffeineFreeTea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CaffeineThresholdInfo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CaffeineThresholdInfo"/>
     
 
 
@@ -582,14 +589,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AlleviatingAllergySymptoms -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AlleviatingAllergySymptoms">
@@ -602,6 +601,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AlleviatingMotionSickness">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
@@ -863,22 +870,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CancerPrevention -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CancerPrevention">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CardiovascularHealthImprovement -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CardiovascularHealthImprovement">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChamomileFlowers -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChamomileFlowers">
@@ -939,14 +930,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#ChocolateChips">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CholesterolReduction -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CholesterolReduction">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
     </owl:NamedIndividual>
     
 
@@ -1024,14 +1007,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CocoaPowder">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Concentration -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Concentration">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
     </owl:NamedIndividual>
     
 
@@ -1171,14 +1146,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EasingAsthmaSymptoms -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EasingAsthmaSymptoms">
@@ -1191,6 +1158,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EasingPmsSymptoms">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
@@ -1218,22 +1193,6 @@
         <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</hasCaffeine>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75.0</hasPrice>
         <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Energising -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Energising">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EnhancingNutrientAbsorption -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EnhancingNutrientAbsorption">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
     </owl:NamedIndividual>
     
 
@@ -1454,30 +1413,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HangoverRemedy -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HangoverRemedy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HeadacheRelief -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HeadacheRelief">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HelpWithSleep -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HelpWithSleep">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusFlower -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HibiscusFlower">
@@ -1538,14 +1473,6 @@
         <hasCaffeine rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</hasCaffeine>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</hasPrice>
         <isSweetened rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSweetened>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Hydration -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Hydration">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
     </owl:NamedIndividual>
     
 
@@ -1804,14 +1731,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MemoryAndCognitiveEnhancement -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MemoryAndCognitiveEnhancement">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MengDingHuangya -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MengDingHuangya">
@@ -1916,26 +1835,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MusclePainRelief -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MusclePainRelief">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutmeg -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutmeg">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MusclePainRelief -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MusclePainRelief">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MusclePainRelief -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MusclePainRelief">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
     </owl:NamedIndividual>
     
 
@@ -2100,14 +2011,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SkinHealthImprovement -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SkinHealthImprovement">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SoftBread -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SoftBread">
@@ -2120,14 +2023,6 @@
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sugar"/>
         <hasIngredient rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Yeast"/>
         <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55.0</hasPrice>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SoothingSunburnedSkin -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#SoothingSunburnedSkin">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
     </owl:NamedIndividual>
     
 
@@ -2274,42 +2169,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightLossAid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightLossAid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightManagement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightManagement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Wheat -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Wheat">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightLossAid -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightLossAid">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightManagement -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightManagement">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightLossAid -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightLossAid">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightManagement -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WeightManagement">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
     </owl:NamedIndividual>
     
 
@@ -2372,20 +2251,33 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CaffeineThresholdInfo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Characteristic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Ingredient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Product"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TimeOfDay"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#OolongTea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Pu-erhTea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YellowTea"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruit"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Herb"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TeaLeaf"/>
         </owl:members>
     </rdf:Description>
     
