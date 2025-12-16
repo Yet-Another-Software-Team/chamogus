@@ -84,16 +84,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goodToDrinkDuring -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goodToDrinkDuring">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#TimeOfDay"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasAroma -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasAroma">
@@ -620,14 +610,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AlleviatingMotionSickness">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
@@ -1224,14 +1206,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EasingPmsSymptoms">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg">
-        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
