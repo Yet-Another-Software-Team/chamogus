@@ -632,6 +632,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Almond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AntiAgingProperties -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AntiAgingProperties">
@@ -1194,6 +1202,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Aroma"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Malty"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Spicy"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
     </owl:NamedIndividual>
     
 
@@ -1210,6 +1224,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#EasingPmsSymptoms">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HealthBenefit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Egg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BakingStaple"/>
     </owl:NamedIndividual>
     
 
@@ -1285,6 +1307,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fire">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Aroma"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
     </owl:NamedIndividual>
     
 
@@ -1293,6 +1316,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Aroma"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Malty"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Milky"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sour"/>
     </owl:NamedIndividual>
     
 
@@ -1413,6 +1440,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Grassy">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Aroma"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
     </owl:NamedIndividual>
     
 
@@ -1880,6 +1909,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Aroma"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Flavour"/>
+        <goWellWithFlavour rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
     </owl:NamedIndividual>
     
 
@@ -2488,6 +2518,12 @@
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#tAroma">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#f">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -3761,6 +3797,40 @@
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult"/>
                         <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Inverse relation of AromaGoWellWithFlavour</rdfs:comment>
+        <rdfs:label>FlavourGoWellWithAroma</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goWellWithFlavour"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#f"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goWellWithAroma"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#f"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#a"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
