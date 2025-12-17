@@ -4,10 +4,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX f: <http://www.semanticweb.org/birdb/ontologies/2025/8/茶#>
 
 # Find Tea that complement Apple Pie
-SELECT DISTINCT ?tea ?flavour ?aroma
+SELECT DISTINCT ?tea
 WHERE {
     ?tea rdf:type f:Tea;
         f:goWellWithBakery f:ApplePie;
-        f:hasFlavour ?flavour;
-        f:hasAroma ?aroma.
 }
