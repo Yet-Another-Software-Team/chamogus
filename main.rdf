@@ -207,6 +207,7 @@
     <!-- http://www.semanticweb.org/birdb/ontologies/2025/8/茶#isSweetened -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#isSweetened">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Product"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
