@@ -6,5 +6,11 @@ PREFIX f: <http://www.semanticweb.org/birdb/ontologies/2025/8/茶#>
 # Query tea that are preferred by Child
 SELECT DISTINCT ?tea
 WHERE {
-    f:Child f:hasPreference ?tea.
+    f:Child f:hasPreference ?prefChar.
+    ?tea rdf:type f:Tea.
+    {
+        { ?tea f:hasAroma ?prefChar. }
+        UNION
+        { ?tea f:hasFlavour ?prefChar.}
+    }
 }

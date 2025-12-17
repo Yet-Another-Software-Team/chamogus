@@ -3,12 +3,15 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX f: <http://www.semanticweb.org/birdb/ontologies/2025/8/茶#>
 
-# Find Tea that complement Apple Pie
-SELECT DISTINCT ?tea ?flavour ?aroma
+# Find Tea that complement Apple Pie which preferred by Teen
+SELECT DISTINCT ?tea
 WHERE {
-    f:Teen f:hasPreference ?tea.
+    f:Teen f:hasPreference ?prefChar.
     ?tea rdf:type f:Tea;
-        f:goWellWithBakery f:ApplePie;
-        f:hasFlavour ?flavour;
-        f:hasAroma ?aroma.
+        f:goWellWithBakery f:ApplePie.
+    {
+        { ?tea f:hasAroma ?prefChar. }
+        UNION
+        { ?tea f:hasFlavour ?prefChar.}
+    }
 }
