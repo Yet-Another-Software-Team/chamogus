@@ -145,7 +145,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Tea"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Characteristic"/>
     </owl:ObjectProperty>
     
 
@@ -915,6 +915,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Child">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Milky"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Minty"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
     </owl:NamedIndividual>
     
 
@@ -1805,6 +1810,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MiddleAgedAdult">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Malty"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich"/>
     </owl:NamedIndividual>
     
 
@@ -2059,6 +2069,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Senior">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Creamy"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Earthy"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Malty"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Rich"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Spicy"/>
     </owl:NamedIndividual>
     
 
@@ -2226,6 +2241,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Teen">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Grassy"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Nutty"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
     </owl:NamedIndividual>
     
 
@@ -2391,6 +2411,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult">
         <rdf:type rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#AgeGroup"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Floral"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Fruity"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Grassy"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Marine"/>
+        <hasPreference rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Sweet"/>
     </owl:NamedIndividual>
     
 
@@ -2489,12 +2514,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#aroma">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#a">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#f">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -2637,98 +2656,6 @@
                         </rdf:rest>
                     </rdf:Description>
                 </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Black teas are preferred by teens and adults</rdfs:comment>
-        <rdfs:label>BlackTeaPreference</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#BlackTea"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Teen"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MiddleAgedAdult"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Caffeine-free teas are preferred by children</rdfs:comment>
-        <rdfs:label>CaffeineFreeTeaPreference</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#CaffeineFreeTea"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Child"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:Description>
         </swrl:head>
     </rdf:Description>
@@ -3014,78 +2941,6 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Green teas are preferred by teens, adults, and seniors</rdfs:comment>
-        <rdfs:label>GreenTeaPreference</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#GreenTea"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Teen"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MiddleAgedAdult"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Senior"/>
-                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Assign HealthBenefits to HerbalTea</rdfs:comment>
         <rdfs:label>HerbalTeaHealthBenefit</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
@@ -3114,91 +2969,6 @@
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Herbal teas are preferred by every age group</rdfs:comment>
-        <rdfs:label>HerbalTeaPreference</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#HerbalTea"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Child"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Teen"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#MiddleAgedAdult"/>
-                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#Senior"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
             </rdf:Description>
         </swrl:head>
     </rdf:Description>
@@ -3258,39 +3028,6 @@
                         </rdf:rest>
                     </rdf:Description>
                 </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Oolong teas are preferred by young adults</rdfs:comment>
-        <rdfs:label>OolongTeaPreference</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#OolongTea"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:Description>
         </swrl:head>
     </rdf:Description>
@@ -3723,73 +3460,6 @@
                         </rdf:rest>
                     </rdf:Description>
                 </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>White teas are preferred by young adults</rdfs:comment>
-        <rdfs:label>WhiteTeaPreference</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#WhiteTea"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#hasPreference"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#YoungAdult"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#t"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Inverse relation of AromaGoWellWithFlavour</rdfs:comment>
-        <rdfs:label>FlavourGoWellWithAroma</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goWellWithFlavour"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#a"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#f"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#goWellWithAroma"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#f"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/birdb/ontologies/2025/8/茶#a"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:Description>
         </swrl:head>
     </rdf:Description>
