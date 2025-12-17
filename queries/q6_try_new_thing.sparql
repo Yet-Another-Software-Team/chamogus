@@ -1,0 +1,14 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX f: <http://www.semanticweb.org/birdb/ontologies/2025/8/茶#>
+
+# Find Tea that complement Apple Pie but not GunpowderTea
+SELECT DISTINCT ?tea
+WHERE {
+    f:GunpowderTea f:hasFlavour ?famFlavour.
+    ?tea rdf:type f:Tea;
+        f:goWellWithBakery f:ApplePie;
+        f:hasFlavour ?famFlavour.
+    FILTER (?tea != f:GunpowderTea)
+}

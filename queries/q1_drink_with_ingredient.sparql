@@ -1,0 +1,11 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX f: <http://www.semanticweb.org/birdb/ontologies/2025/8/茶#>
+
+# Query Drink without BlackTeaLeaf (Can be changed to other Instances)
+SELECT DISTINCT ?tea
+WHERE {
+    ?tea    rdf:type f:Tea;
+            f:hasIngredient f:BlackTeaLeaf.
+}
